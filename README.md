@@ -7,18 +7,22 @@ Recommended is:
 
 Motherboard:
  - AM4/5
+
 CPU:
  - AMD Ryzen 7 5800 min Spec
  - upto
  - AMD Ryzen 9 7950x or 7950x3d
+
 RAM:
  - 128GB 3600Mhz
  - upto
  - 128GB 8000Mhz
+
 SSD:
  - NVMe 2TB min a Gen 4 with 7000MB/s
  - or higher
  - ie 8TB Gen 5 with 7000MB/s
+
 GPU: 
  - Nvidia GPU's 12GB or higher 24GB is the best. But set yourself a budget and stay within your budget
  -  ie:
@@ -31,6 +35,7 @@ GPU:
  -  PNY NVIDIA RTX A6000 Professional Graphic Card 48GB GDDR6
  -  ASUS ROG Strix GeForce RTX 4090 24GB (£2069)
  -  MSI GeForce RTX 4090 SUPRIM LIQUID X 24G (£1834.99)
+
 PSU:  
  - Power supllies are key. Depending on the power consumption of the Parts you buy that ultimatly state your watts
  - Best is the modular PSU
