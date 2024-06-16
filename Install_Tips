@@ -40,3 +40,26 @@ Next Step:
  - cd to ~/open-webui/backend folder and
  - bash start.sh
 
+You can also manually install open-wbui
+If workspaces does not exits create the folder called: Workspace
+cd /home/Workspace
+
+#In /home/Workspace git clone 
+git clone https://github.com/open-webui/open-webui.git
+then 
+ cd open-webui/
+
+# Copying required .env file
+cp -RPp .env.example .env
+
+# Building Frontend Using Node
+npm i
+npm run build
+
+# Serving Frontend with the Backend
+cd ./backend
+pip install uvicorn
+uvicorn --version
+pip install -r requirements.txt -U
+bash start.sh
+
