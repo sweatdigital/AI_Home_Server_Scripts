@@ -31,59 +31,12 @@
 #@STCGoal Install and configure openwebui
 #@STCIssue None
 
-# Note change directory for your logfile
 LOG_FILE="/home/mike/Workspace/open-webui_install.log"
 
-# Change the directory where your open-webui is
-cd /home/mike/Workspace/open-webui/backend || { echo "Error: Unable to change into Workspace directory"; exit 1; }
+# Change directory to backend folder
+cd /home/mike/Workspace/open-webui/backend || { echo "Error: Unable to change into backend directory"; exit 1; }
 
-# Copy .env.example to .env only if .env does not exist
-if [ ! -f ".env" ]; then
-  cp -RPp .env.example .env | tee -a $LOG_FILE
-else
-  echo "Skipping .env file copy, as it already exists." | tee -a $LOG_FILE
-fi
-
-# Install dependencies using npm
-npm i --silent | tee -a $LOG_FILE
-if [ $? -eq 0 ]; then
-  echo "NPM installation successful!" | tee -a $LOG_FILE
-else
-  echo "NPM installation failed!" | tee -a $LOG_FILE
-fi
-
-sleep 8
-
-# Build frontend using Node
-npm run build --silent | tee -a $LOG_FILE
-if [ $? -eq 0 ]; then
-  echo "Build successful!" | tee -a $LOG_FILE
-else
-  echo "Build failed!" | tee -a $LOG_FILE
-fi
-sleep 8
-
-# Install required packages using pip
-pip install uvicorn --quiet | tee -a $LOG_FILE
-if [ $? -eq 0 ]; then
-  echo "Uvicorn installation successful!" | tee -a $LOG_FILE
-else
-  echo "Uvicorn installation failed!" | tee -a $LOG_FILE
-fi
-
-sleep 8
-
-# Install BeautifulSoup
-pip install beautifulsoup4 --quiet | tee -a $LOG_FILE
-if [ $? -eq 0 ]; then
-  echo "BeautifulSoup installation successful!" | tee -a $LOG_FILE
-else
-  echo "BeautifulSoup installation failed!" | tee -a $LOG_FILE
-fi
-
-sleep 8
-
-# Install required packages using pip (again)
+# Install dependencies using pip
 pip install -r requirements.txt -U --quiet | tee -a $LOG_FILE
 if [ $? -eq 0 ]; then
   echo "Requirements installation successful!" | tee -a $LOG_FILE
@@ -113,3 +66,4 @@ else
     echo "Ollama installation failed!" | tee -a $LOG_FILE
   fi
 fi
+
