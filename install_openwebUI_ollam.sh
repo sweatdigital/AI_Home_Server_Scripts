@@ -31,8 +31,10 @@
 #@STCGoal Install and configure openwebui
 #@STCIssue None
 
+# Note change directory for your logfile
 LOG_FILE="/home/mike/Workspace/open-webui_install.log"
 
+# Change the directory where your open-webui is
 cd /home/mike/Workspace/open-webui || { echo "Error: Unable to change into Workspace directory"; exit 1; }
 
 # Copy .env.example to .env only if .env does not exist
