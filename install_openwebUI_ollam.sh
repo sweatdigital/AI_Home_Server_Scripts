@@ -35,7 +35,7 @@
 LOG_FILE="/home/mike/Workspace/open-webui_install.log"
 
 # Change the directory where your open-webui is
-cd /home/mike/Workspace/open-webui || { echo "Error: Unable to change into Workspace directory"; exit 1; }
+cd /home/mike/Workspace/open-webui/backend || { echo "Error: Unable to change into Workspace directory"; exit 1; }
 
 # Copy .env.example to .env only if .env does not exist
 if [ ! -f ".env" ]; then
