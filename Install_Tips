@@ -63,3 +63,6 @@ uvicorn --version
 pip install -r requirements.txt -U
 bash start.sh
 
+THIS IS ALL WIP to make my life easier to build my environments
+
+
