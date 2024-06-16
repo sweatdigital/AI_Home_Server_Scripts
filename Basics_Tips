@@ -1,0 +1,3 @@
+To run a bashfile:
+$ chmod +x filename.sh
+$ sudo bash ./filename.sh
