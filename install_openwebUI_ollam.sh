@@ -54,6 +54,8 @@ else
   echo "Curl is already installed!" | tee -a $LOG_FILE
 fi
 
+sleep 8
+
 # Check if http://127.0.0.1:11434 is running, install Ollama if not
 if ! curl --silent --head http://127.0.0.1:11434 | grep -q "200 OK"; then
   echo "Ollama installation skipped as it's already running." | tee -a $LOG_FILE
