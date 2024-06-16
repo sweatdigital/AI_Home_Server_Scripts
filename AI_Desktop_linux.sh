@@ -26,11 +26,11 @@ apt-get update -y
 apt-get upgrade -y
 
 # Check and install Python
-if which python3.11 &> /dev/null; then
-  echo "Python3.11 is already installed"
+if which python3 &> /dev/null; then
+  echo "Python3 is already installed"
 else
   apt-get install -y python3.11
-  echo "Python.311 successfully installed"
+  echo "Python3 successfully installed"
 fi
 
 # Sleep for 5 seconds between each installation
