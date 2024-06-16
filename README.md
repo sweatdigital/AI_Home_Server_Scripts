@@ -41,7 +41,7 @@ PSU:
  - Best is the modular PSU
  - Corsair RM850e (2023) Fully Modular Low-Noise for lower end of the scale builds
  - GIGABYTE UD850GM Power Supply Unit - 850W
- - Corsair HX1500i Fully Modular Ultra-Low Noise (£300)
+ - Corsair HX1500i Fully Modular Ultra-Low Noise - 1500W (£300)
 
 This is to make you think and for your to investigate:
 
