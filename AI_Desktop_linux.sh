@@ -29,7 +29,7 @@ apt-get upgrade -y
 if which python3 &> /dev/null; then
   echo "Python3 is already installed"
 else
-  apt-get install -y python3.11
+  apt-get install -y python3
   echo "Python3 successfully installed"
 fi
 
