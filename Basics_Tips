@@ -1,3 +1,32 @@
+
+ ________  ________  ________  ___  ________          _________  ___  ________  ________      
+|\   __  \|\   __  \|\   ____\|\  \|\   ____\        |\___   ___\\  \|\   __  \|\   ____\     
+\ \  \|\ /\ \  \|\  \ \  \___|\ \  \ \  \___|        \|___ \  \_\ \  \ \  \|\  \ \  \___|_    
+ \ \   __  \ \   __  \ \_____  \ \  \ \  \                \ \  \ \ \  \ \   ____\ \_____  \   
+  \ \  \|\  \ \  \ \  \|____|\  \ \  \ \  \____            \ \  \ \ \  \ \  \___|\|____|\  \  
+   \ \_______\ \__\ \__\____\_\  \ \__\ \_______\           \ \__\ \ \__\ \__\     ____\_\  \ 
+    \|_______|\|__|\|__|\_________\|__|\|_______|            \|__|  \|__|\|__|    |\_________\
+                       \|_________|                                               \|_________|
+                                                                                              
+                                                                                              
+
+
 To run a bashfile:
-$ chmod +x filename.sh
-$ sudo bash ./filename.sh
+- $ chmod +x filename.sh
+- $ sudo bash ./filename.sh
+
+First Run
+- AI_Desktop_linux.sh
+
+Second Run
+- install_openwebUI_ollama.sh
+
+When finish install some Ollama modules
+- ollama run llama3
+- ollama run phi3
+- ollama run deepseek-coder
+
+Next Step:
+- cd to ~/open-webui/backend folder and
+- bash start.sh
+
