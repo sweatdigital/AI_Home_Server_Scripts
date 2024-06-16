@@ -14,8 +14,8 @@
 
 #!/bin/bash
 
-# Define log file
-LOG_FILE="/home/mike/setup_script.log"
+# Define log file. Change the logfile location to suite your own needs
+LOG_FILE="/home/{user}/setup_script.log"
 
 # Redirect stdout and stderr to log file
 exec > >(tee -i $LOG_FILE)
