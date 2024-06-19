@@ -1,4 +1,7 @@
 # AI_Home_Server_Scripts
+
+More information in the Wiki of this repository
+
 Build a AI Home Server (Similar to gaming Spec)
 
 This might help folks setting up or building AI Home Desktop workstations
